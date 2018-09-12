@@ -1,0 +1,56 @@
+BEGIN
+DROP TABLE
+DROP TABLE
+DROP TABLE
+DROP TABLE
+CREATE TABLE
+COPY 250
+SELECT 250
+SELECT 250
+SELECT 250
+ risk_score  | num_companies_b 
+-------------+-----------------
+ HIGH        |              58
+ MEDIUM_HIGH |              36
+ MEDIUM      |              12
+ LOW         |               1
+(4 rows)
+
+ risk_score | num_companies_nb 
+------------+------------------
+ LOW        |              124
+ MEDIUM     |               19
+(2 rows)
+
+ id  | score | class | risk_score 
+-----+-------+-------+------------
+   2 |     3 | NB    | MEDIUM
+   5 |     3 | NB    | MEDIUM
+  13 |     3 | NB    | MEDIUM
+  14 |     3 | NB    | MEDIUM
+  15 |     3 | NB    | MEDIUM
+  16 |     3 | NB    | MEDIUM
+  17 |     3 | NB    | MEDIUM
+  18 |     3 | NB    | MEDIUM
+  19 |     3 | NB    | MEDIUM
+  86 |     3 | NB    | MEDIUM
+ 110 |     3 | NB    | MEDIUM
+ 113 |     3 | NB    | MEDIUM
+ 121 |     3 | NB    | MEDIUM
+ 122 |     3 | NB    | MEDIUM
+ 123 |     3 | NB    | MEDIUM
+ 124 |     3 | NB    | MEDIUM
+ 125 |     3 | NB    | MEDIUM
+ 126 |     3 | NB    | MEDIUM
+ 127 |     3 | NB    | MEDIUM
+(19 rows)
+
+ id | score | class | risk_score 
+----+-------+-------+------------
+(0 rows)
+
+COMMIT
+ANALYZE
+ANALYZE
+ANALYZE
+ANALYZE
