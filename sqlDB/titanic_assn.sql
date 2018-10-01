@@ -258,10 +258,4 @@ select
 			The query did make sense, I guess some of my method are good.
 		*/
 
-/*
-    Email me just this document - just fill in your answers.
-    Your sql should run without errors - please test it beforehand.
 
-    email:  gordon@sci.brooklyn.cuny.edu
-    Due Date: Feb 8, 2018 - one week. 
-*/
